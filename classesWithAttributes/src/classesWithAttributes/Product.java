@@ -2,14 +2,29 @@ package classesWithAttributes;
 
 public class Product {
 
+	public Product(int id, String name,String descriptoion ,double price,int stockAmount,String renk) {
+		System.out.println("Yapıcı Blok Çalıştı.");
+		this.id =id;
+		this.renk = renk;
+		this.name = name;
+		this.price = price;
+		this.description = descriptoion;
+		this.stockAmount = stockAmount;
+		
+	}
+	
+	public Product() {
+		
+	}
+	
 		//attribute | field
-	 int id;
-	 String name;
-	 String description;
-	 double price;
-	 int stockAmount;
-	 String renk;
-	 String kod;
+	private int id;
+	private String name;
+	private String description;
+	private double price;
+	private int stockAmount;
+	private String renk;
+	private String kod;
 	
 	//getter
 	public int getId() {
