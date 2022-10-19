@@ -8,4 +8,10 @@ public class MySqlCustomerDal implements ICustomerDal,IRepository {
 		
 	}
 
+	@Override
+	public void birsey() {
+		System.out.println("bir şey yaptı");
+		
+	}
+
 }
