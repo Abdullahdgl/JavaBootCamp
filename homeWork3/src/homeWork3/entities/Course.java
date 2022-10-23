@@ -4,13 +4,13 @@ public class Course {
 	private int id;
 	private String name;
 	private int price;
-	private String teacher;
-	public Course(int id, String name, int price, String teacher) {
-		super();
+	
+	public Course(int id, String name, int price) {
+	
 		this.id = id;
 		this.name = name;
 		this.price = price;
-		this.teacher = teacher;
+	
 	}
 	public int getId() {
 		return id;
@@ -30,12 +30,6 @@ public class Course {
 	public void setPrice(int price) {
 		this.price = price;
 	}
-	public String getTeacher() {
-		return teacher;
-	}
-	public void setTeacher(String teacher) {
-		this.teacher = teacher;
-	}
-	
+
 
 }

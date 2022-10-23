@@ -5,7 +5,7 @@ public class Instructor {
 	private String firstName;
 	private String lastName;
 	public Instructor(int id, String firstName, String lastName) {
-		super();
+		
 		this.id = id;
 		this.firstName = firstName;
 		this.lastName = lastName;
